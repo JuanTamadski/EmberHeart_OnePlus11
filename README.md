@@ -1,18 +1,17 @@
-<p align="center">
-  <img src="assets/heart.png" height="80" style="vertical-align:middle; margin-right:10px;" />
-  <img src="assets/banner.svg" height="80" style="vertical-align:middle;" />
-</p>
+
+![GitHub-Mark-Light](assets/banner_light.svg#gh-light-mode-only)
+![GitHub-Mark-Dark ](assets/banner_dark.svg#gh-dark-mode-only)
 
 ----
 
-![ci-status](https://raw.githubusercontent.com/nullptr-t-oss/EmberHeart_OnePlus11/refs/heads/badges/ci.svg)
+![ci-status](https://raw.githubusercontent.com/nullptr-t-oss/Dragonw1nd-Kernels/refs/heads/badges/ci.svg)
 
 ----
 
 > [!CAUTION]
 > ## Your warranty is no longer valid!
 >
-> I am not responsible for bricked devices, dead SD cards, thermonuclear war, or the current economic crisis. Please do some research if you have any concerns about features included in this kernel before flashing it! YOU are choosing to make these modifications, and if you point your finger at me for messing up your device, I will laugh at you.
+> I am not responsible for bricked devices, dead SD cards, thermonuclear war, or the current economic crisis. Please do some research if you have any concerns about features included in this kernel before flashing it! YOU are choosing to make these modifications, and if you point your finger at me for messing up your device, I will laugh at you. (jk)
 
 ----
 
@@ -21,7 +20,8 @@
 >
 > - Flash AK3 zip in kernel flasher
 > - Flash Wireless Firmware for Nethunter provided in the releases
-> - Download and Unzip kernel modules in internal storage and load them using `insmod module_name.ko`
+> - Flash vendor_boot, system_dlkm and vendor_dlkm for supported devices 
+> - [Skip this step if vendor_boot, system_dlkm and vendor_dlkm is available] Download and Unzip kernel modules in internal storage and load them using `insmod module_name.ko`
 
 ----
 
@@ -30,9 +30,10 @@
 > - [Kernel Flasher - fatalcoder524 fork](https://github.com/fatalcoder524/KernelFlasher/releases/latest)
 > - [Nethuner Wireless Firmware](https://github.com/nullptr-t-oss/Nethunter-Wireless-Firmware/releases/latest)
 > - [Guide to fix Unusually long boot times on A16 when using Nethunter](docs/a16_fix.md)
-> - [Link to Org repo maintained by @fatalcoder524](https://github.com/EmberHeart-Kernels/EmberHeart_OnePlus11)
 > - [Loading chipset drivers](docs/drivers.md)
-> - [Porting Kernel for other OnePlus devices (GKI2 - i.e. kernel 5.10 or above)](docs/porting.md)
+> - [Porting Kernel for other OnePlus devices (GKI2 - i.e. kernel 5.10 or above)](docs/porting.md) (old - to be updated ; Join telegram group for help with porting)
+> - [Guide to use build config for device specific build customization](docs/BUILD_CONFIG_HOOKS.md) (old - to be updated ; Join telegram group for help with build config)
+> - [Telegram Channel for Support](https://t.me/init_user0)
 
 ----
 
@@ -79,10 +80,10 @@
 > [!NOTE]
 > If you have contributed and are not here please remind me!
 
-<a href="https://www.star-history.com/?repos=nullptr-t-oss%2FEmberHeart_OnePlus11&type=date&legend=top-left">
+<a href="https://www.star-history.com/?repos=nullptr-t-oss%2FDragonw1nd-Kernels&type=date&legend=top-left">
  <picture>
-   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/image?repos=nullptr-t-oss/EmberHeart_OnePlus11&type=date&theme=dark&legend=top-left" />
-   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/image?repos=nullptr-t-oss/EmberHeart_OnePlus11&type=date&legend=top-left" />
-   <img alt="Star History Chart" src="https://api.star-history.com/image?repos=nullptr-t-oss/EmberHeart_OnePlus11&type=date&legend=top-left" />
+   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/image?repos=nullptr-t-oss/Dragonw1nd-Kernels&type=date&theme=dark&legend=top-left" />
+   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/image?repos=nullptr-t-oss/Dragonw1nd-Kernels&type=date&legend=top-left" />
+   <img alt="Star History Chart" src="https://api.star-history.com/image?repos=nullptr-t-oss/Dragonw1nd-Kernels&type=date&legend=top-left" />
  </picture>
 </a>
